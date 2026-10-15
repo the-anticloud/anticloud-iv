@@ -1,0 +1,292 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "serialNumber": "urn:uuid:a561a049-0853-553f-8087-dd2b3f689986",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-10-06T07:49:16Z",
+  "component": {
+   "type": "application",
+   "name": "IV",
+   "version": "83b357604d34",
+   "bom-ref": "pkg:generic/anticloud/IV@83b357604d34",
+   "purl": "pkg:generic/anticloud/IV@83b357604d34",
+   "licenses": [
+    {
+     "license": {
+      "id": "MIT"
+     }
+    }
+   ]
+  },
+  "properties": [
+   {
+    "name": "anticloud:source-commit",
+    "value": "REMOVED_CONTAMINATED_SHA_PENDING_API_RESOLVE"
+   },
+   {
+    "name": "anticloud:source-url",
+    "value": "https://github.com/the-anticloud/OPENMRS_CORE.git"
+   },
+   {
+    "name": "anticloud:tier",
+    "value": "tier-agent"
+   }
+  ]
+ },
+ "components": [
+  {
+   "type": "library",
+   "name": "axios",
+   "version": "^0.18.0",
+   "purl": "pkg:npm/axios@^0.18.0",
+   "bom-ref": "npm/axios@^0.18.0"
+  },
+  {
+   "type": "library",
+   "name": "clipboard",
+   "version": "^2.0.0",
+   "purl": "pkg:npm/clipboard@^2.0.0",
+   "bom-ref": "npm/clipboard@^2.0.0"
+  },
+  {
+   "type": "library",
+   "name": "codemirror",
+   "version": "^5.38.0",
+   "purl": "pkg:npm/codemirror@^5.38.0",
+   "bom-ref": "npm/codemirror@^5.38.0"
+  },
+  {
+   "type": "library",
+   "name": "countup",
+   "version": "^1.8.2",
+   "purl": "pkg:npm/countup@^1.8.2",
+   "bom-ref": "npm/countup@^1.8.2"
+  },
+  {
+   "type": "library",
+   "name": "cropperjs",
+   "version": "^1.2.2",
+   "purl": "pkg:npm/cropperjs@^1.2.2",
+   "bom-ref": "npm/cropperjs@^1.2.2"
+  },
+  {
+   "type": "library",
+   "name": "dayjs",
+   "version": "^1.7.7",
+   "purl": "pkg:npm/dayjs@^1.7.7",
+   "bom-ref": "npm/dayjs@^1.7.7"
+  },
+  {
+   "type": "library",
+   "name": "echarts",
+   "version": "^4.0.4",
+   "purl": "pkg:npm/echarts@^4.0.4",
+   "bom-ref": "npm/echarts@^4.0.4"
+  },
+  {
+   "type": "library",
+   "name": "html2canvas",
+   "version": "^1.0.0-alpha.12",
+   "purl": "pkg:npm/html2canvas@^1.0.0-alpha.12",
+   "bom-ref": "npm/html2canvas@^1.0.0-alpha.12"
+  },
+  {
+   "type": "library",
+   "name": "iview",
+   "version": "^3.2.2",
+   "purl": "pkg:npm/iview@^3.2.2",
+   "bom-ref": "npm/iview@^3.2.2"
+  },
+  {
+   "type": "library",
+   "name": "iview-area",
+   "version": "^1.5.17",
+   "purl": "pkg:npm/iview-area@^1.5.17",
+   "bom-ref": "npm/iview-area@^1.5.17"
+  },
+  {
+   "type": "library",
+   "name": "js-cookie",
+   "version": "^2.2.0",
+   "purl": "pkg:npm/js-cookie@^2.2.0",
+   "bom-ref": "npm/js-cookie@^2.2.0"
+  },
+  {
+   "type": "library",
+   "name": "simplemde",
+   "version": "^1.11.2",
+   "purl": "pkg:npm/simplemde@^1.11.2",
+   "bom-ref": "npm/simplemde@^1.11.2"
+  },
+  {
+   "type": "library",
+   "name": "sortablejs",
+   "version": "^1.7.0",
+   "purl": "pkg:npm/sortablejs@^1.7.0",
+   "bom-ref": "npm/sortablejs@^1.7.0"
+  },
+  {
+   "type": "library",
+   "name": "tree-table-vue",
+   "version": "^1.1.0",
+   "purl": "pkg:npm/tree-table-vue@^1.1.0",
+   "bom-ref": "npm/tree-table-vue@^1.1.0"
+  },
+  {
+   "type": "library",
+   "name": "v-org-tree",
+   "version": "^1.0.6",
+   "purl": "pkg:npm/v-org-tree@^1.0.6",
+   "bom-ref": "npm/v-org-tree@^1.0.6"
+  },
+  {
+   "type": "library",
+   "name": "vue",
+   "version": "^2.5.10",
+   "purl": "pkg:npm/vue@^2.5.10",
+   "bom-ref": "npm/vue@^2.5.10"
+  },
+  {
+   "type": "library",
+   "name": "vue-i18n",
+   "version": "^7.8.0",
+   "purl": "pkg:npm/vue-i18n@^7.8.0",
+   "bom-ref": "npm/vue-i18n@^7.8.0"
+  },
+  {
+   "type": "library",
+   "name": "vue-router",
+   "version": "^3.0.1",
+   "purl": "pkg:npm/vue-router@^3.0.1",
+   "bom-ref": "npm/vue-router@^3.0.1"
+  },
+  {
+   "type": "library",
+   "name": "vuedraggable",
+   "version": "^2.16.0",
+   "purl": "pkg:npm/vuedraggable@^2.16.0",
+   "bom-ref": "npm/vuedraggable@^2.16.0"
+  },
+  {
+   "type": "library",
+   "name": "vuex",
+   "version": "^3.0.1",
+   "purl": "pkg:npm/vuex@^3.0.1",
+   "bom-ref": "npm/vuex@^3.0.1"
+  },
+  {
+   "type": "library",
+   "name": "wangeditor",
+   "version": "^3.1.1",
+   "purl": "pkg:npm/wangeditor@^3.1.1",
+   "bom-ref": "npm/wangeditor@^3.1.1"
+  },
+  {
+   "type": "library",
+   "name": "xlsx",
+   "version": "^0.13.3",
+   "purl": "pkg:npm/xlsx@^0.13.3",
+   "bom-ref": "npm/xlsx@^0.13.3"
+  },
+  {
+   "type": "library",
+   "name": "@vue/cli-plugin-babel",
+   "version": "^3.0.1",
+   "purl": "pkg:npm/@vue/cli-plugin-babel@^3.0.1",
+   "bom-ref": "npm/@vue/cli-plugin-babel@^3.0.1"
+  },
+  {
+   "type": "library",
+   "name": "@vue/cli-plugin-eslint",
+   "version": "^3.0.1",
+   "purl": "pkg:npm/@vue/cli-plugin-eslint@^3.0.1",
+   "bom-ref": "npm/@vue/cli-plugin-eslint@^3.0.1"
+  },
+  {
+   "type": "library",
+   "name": "@vue/cli-plugin-unit-mocha",
+   "version": "^3.0.1",
+   "purl": "pkg:npm/@vue/cli-plugin-unit-mocha@^3.0.1",
+   "bom-ref": "npm/@vue/cli-plugin-unit-mocha@^3.0.1"
+  },
+  {
+   "type": "library",
+   "name": "@vue/cli-service",
+   "version": "^3.0.1",
+   "purl": "pkg:npm/@vue/cli-service@^3.0.1",
+   "bom-ref": "npm/@vue/cli-service@^3.0.1"
+  },
+  {
+   "type": "library",
+   "name": "@vue/eslint-config-standard",
+   "version": "^3.0.0-beta.10",
+   "purl": "pkg:npm/@vue/eslint-config-standard@^3.0.0-beta.10",
+   "bom-ref": "npm/@vue/eslint-config-standard@^3.0.0-beta.10"
+  },
+  {
+   "type": "library",
+   "name": "@vue/test-utils",
+   "version": "^1.0.0-beta.10",
+   "purl": "pkg:npm/@vue/test-utils@^1.0.0-beta.10",
+   "bom-ref": "npm/@vue/test-utils@^1.0.0-beta.10"
+  },
+  {
+   "type": "library",
+   "name": "chai",
+   "version": "^4.1.2",
+   "purl": "pkg:npm/chai@^4.1.2",
+   "bom-ref": "npm/chai@^4.1.2"
+  },
+  {
+   "type": "library",
+   "name": "eslint-plugin-cypress",
+   "version": "^2.0.1",
+   "purl": "pkg:npm/eslint-plugin-cypress@^2.0.1",
+   "bom-ref": "npm/eslint-plugin-cypress@^2.0.1"
+  },
+  {
+   "type": "library",
+   "name": "less",
+   "version": "^2.7.3",
+   "purl": "pkg:npm/less@^2.7.3",
+   "bom-ref": "npm/less@^2.7.3"
+  },
+  {
+   "type": "library",
+   "name": "less-loader",
+   "version": "^4.0.5",
+   "purl": "pkg:npm/less-loader@^4.0.5",
+   "bom-ref": "npm/less-loader@^4.0.5"
+  },
+  {
+   "type": "library",
+   "name": "lint-staged",
+   "version": "^6.0.0",
+   "purl": "pkg:npm/lint-staged@^6.0.0",
+   "bom-ref": "npm/lint-staged@^6.0.0"
+  },
+  {
+   "type": "library",
+   "name": "mockjs",
+   "version": "^1.0.1-beta3",
+   "purl": "pkg:npm/mockjs@^1.0.1-beta3",
+   "bom-ref": "npm/mockjs@^1.0.1-beta3"
+  },
+  {
+   "type": "library",
+   "name": "vue-template-compiler",
+   "version": "^2.5.13",
+   "purl": "pkg:npm/vue-template-compiler@^2.5.13",
+   "bom-ref": "npm/vue-template-compiler@^2.5.13"
+  }
+ ],
+ "source": {
+  "git": {
+   "head": null,
+   "url": null,
+   "sha_unverified": true,
+   "note": "contamination removed; resolve via GitHub API before quoting"
+  }
+ }
+}
