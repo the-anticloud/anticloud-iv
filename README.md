@@ -1,20 +1,20 @@
 # IV
 
-> iView Admin Vue.js 2.0 admin management system template based on iView.
+> This directory contains the full 30-folder standard documentation set for `IV`:
 
-**Category:** SOCIAL_MEDIA · **Ecosystem:** unknown · **Vendored upstream:** https://github.com/iview/iview-admin · **Pinned commit:** `dd86e386a8542e8808a54ce7afeb713963c81d3c` · **Vendor:** Anticloud FZ LLE
-
-> **Note:** this package vendors `https://github.com/iview/iview-admin` as the implementation for the `IV` slot. The vendored repository name differs from the package name; the pin above is the exact commit vendored here.
+**Category:** SOCIAL_MEDIA · **Ecosystem:** unknown · **Vendored upstream:** https://github.com/Constellation/iv · **Pinned commit:** `64c3a9c7c517063f29d90d449180ea8f6f4d946f` · **Vendor:** Anticloud FZ LLE
 
 ## What This Project Is
 
-iView Admin Vue.js 2.0 admin management system template based on iView.
+This directory contains the full 30-folder standard documentation set for `IV`:
 
 This is the upstream project, vendored at the pinned commit above and packaged offline-first. The 12 improvements Anticloud adds live in `anticloud/` and are described under *Anticloud Overlay* below. Every fact in this file traces to a file in this directory.
 
 ## Installation
 
-```bush
+```
+# See the upstream README (linked above) for build steps.
+```
 
 ## Usage
 
@@ -60,7 +60,7 @@ The upstream licence is preserved in `LICENSE` and `THIRD_PARTY_LICENSES/`. The 
 SHA3-256 of `BENCH.json`:
 
 ```
-1d30e4a5784c60dc4ec7e14af954d8db1a9fd51fac1aa745bbd9a34f0496c5ef
+2f3736304ac50cf93075e502b06eb1a2500e01427e8ae210e1ef7f6b60af30ab
 ```
 
 Recompute the hash above and compare — any drift means the package has been tampered with and the seal is invalid. This is a self-assessment; no external audit has been performed and a SOC 2 / NIST independent audit is committed post-funding.
